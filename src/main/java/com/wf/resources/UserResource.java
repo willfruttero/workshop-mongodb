@@ -22,5 +22,6 @@ public class UserResource {
 		User alex = new User("1002", "Alex Green", "alex@gmail.com");
 		list.addAll(Arrays.asList(maria, alex));
 		return ResponseEntity.ok().body(list);
+		
 	}
 }
